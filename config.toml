@@ -19,7 +19,7 @@ dataFormt = "03,08,2018"
 commit = false
 rss = true
 baidukey = ""
-algolia = ""
+algolia = "7422a2e7ec6e21a36ecb10edd5309d29"
 description = "kalid 的博客|dishuihengxin.github.io"
 errorpage = "images url"
 
