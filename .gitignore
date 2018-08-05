@@ -1,0 +1,7 @@
+node_modules
+package-lock.json
+deploy.sh
+hugo_algolia.py
+config.yaml
+algolia.yaml
+wordcount.sh
