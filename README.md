@@ -72,10 +72,10 @@ As the  new post created there should be a new record added to this file `public
 - [Beautiful Hugo](https://github.com/halogenica/beautifulhugo): theme
 - [Bitlinks](https://bitly.com/) Short links
 - [Cloudfare](https://www.cloudflare.com/): DNS and https
-- [Cloudinary](https://www.cloudinary.com/): CDN and static images hosting
 - [Github Pages](https://pages.github.com/): website hosting
-- [Gitment](https://github.com/imsun/gitment): comments plugin
+- [LiveRe](https://livere.com): comments plugin
 - [Hugo](https://gohugo.io/): static website builder
 - [Hugo-algolia](https://www.npmjs.com/package/hugo-algolia): index json builder
 - [Namecheap](https://namecheap.com/): domain name registry
+- [Godaddy](https://www.godaddy.com): domain name registry
 - [Prism](http://prism.com/): code highlight
