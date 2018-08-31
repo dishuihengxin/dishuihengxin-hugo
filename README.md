@@ -1,8 +1,8 @@
 # My blog's source code
 
-[Kalid's Blog](https://dishuihengxin.github.io/) source code.
+[Kalid's Blog](https://kalid.io/) source code.
 
-Proudly powered by [Hugo](https://github.com/gohugoio/hugo) ❤️, Theme by [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) adapted to [Beautiful Hugo](https://github.com/halogenica/beautifulhugo)
+Proudly powered by [Hugo](https://github.com/gohugoio/hugo) ❤️, Theme by [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) adapted to [Beautiful Hugo](https://github.com/halogenica/beautifulhugo),This source code is adapted from the source code of [https://github.com/rootsongjc/rootsongjc-hugo ](https://github.com/rootsongjc/rootsongjc-hugo "beautifulhugo latest code"),his blog is [宋净超](https://jimmysong.io "Jim Mysong"), and I would like to express my gratitude.
 
 ## Usage
 
