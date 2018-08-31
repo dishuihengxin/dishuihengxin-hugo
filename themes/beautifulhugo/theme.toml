@@ -9,7 +9,6 @@ min_version = 0.17
 [author]
     name = "halogenica"
     homepage = "http://halogenica.net"
-    website = "http://jimmysong.io"
 
 # If Porting existing theme
 [original]

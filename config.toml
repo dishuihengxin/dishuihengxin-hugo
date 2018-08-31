@@ -1,5 +1,5 @@
-baseURL = "https://dishuihengxin.github.io/"
-title = "Kalid blog website"
+baseURL = "https://kalid.io/"
+title = "Kalid's blog"
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
 languageCode = "zh"
@@ -7,72 +7,98 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = false
 pygmentCodeFences = true
+#googleAnalytics = "XXX"
 
 # Index   set
 [Params]
 hello = "Hello,I'm Kalid"
-subtitle = "Trying hard to try more open source projects!"
-logo = "adress url"
-favicon ="images url"
-share_img = "images url"
+subtitle = "Stay Hungry,Stay Foolish!"
+logo = "/img/top_logo.jpg"
+favicon ="/img/top_logo.jpg"
+share_img = "/img/top_logo.jpg"
 dataFormt = "03,08,2018"
 commit = false
 rss = true
-baidukey = ""
+comments = true
+sharebutton = true
+baiduKey = "a60715809868679547f5cce7b6866e38"
 algolia = "7422a2e7ec6e21a36ecb10edd5309d29"
-description = "kalid 的博客|dishuihengxin.github.io"
-errorpage = "images url"
+description = "kalid 的博客|kalid.io"
+errorpage = "/img/404.jpg"
 
 # Index big images 
-#[[Params.bigimg]]
-#src = "url"
-#desc = "test #one - Jul 21,2018"
+[[Params.bigimg]]
+src = "/img/banner1.jpg"
+desc = "Spring vitality - February 14, 2018"
+
+[[Params.bigimg]]
+src = "/img/banner2.jpg"
+desc = "Summer lotus - May 27, 2018"
+
+[[Params.bigimg]]
+src = "/img/banner3.jpg"
+desc = "Autumn leaves - August 25, 2018"
+
+[[Params.bigimg]]
+src = "/img/banner4.jpg"
+desc = "Winter plum - December 08, 2017"
 
 # auther info
 [Author]
   name = "kalid"
-  website = "https://dishuihengxin.github.io/"
-  #email = "dishuihengxin@gmail.com"
+  website = "https://kalid.io/"
+  email = "dishuihengxin@gmail.com"
   #facebook = "kalid" 
   github = "dishuihengxin"
   #twitter = "kalid"
-  linkedin = "kalid"
+  #linkedin = "kalid"
   #500px = "kalid"
   #medium = "kalid"
   #instagram = "kalid"
-  weibo = "kalid"
+  weibo = "dishuihengxin"
 
-# 一级菜单
+## main nenu
 [[menu.main]]
-    identifier = "Index"
-    name = "Index"
+    identifier = "categories"
+    name = "categories"
     weight = 1
 	
-# 二级菜单
 [[menu.main]]
-    parent = "Index"
-    name = "one"
-    url = "categories/one"
+    parent = "categories"
+    name = "Operation"
+    url = "categories/operation"
     weight = 1
 
 [[menu.main]]
-    parent = "Index"
-    name = "two"
-    url = "categories/two"
+    parent = "categories"
+    name = "Devops"
+    url = "categories/devops"
     weight = 2	
-	
-[[menu.main]]
-    identifier = "Menu2"
-    name = "Menu2"
-    weight = 2
 
 [[menu.main]]
-    identifier = "Menu3"
-    name = "Menu3"
+    parent = "categories"
+    name = "Docker"
+    url = "categories/docker"
     weight = 3
 	
-	
+[[menu.main]]
+    parent = "categories"
+    name = "Tags"
+    url = "tags"
+    weight = 4
+
+#[[menu.main]]
+#    identifier = "gitbooks"
+#    name = "gitbooks"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "gitbooks"
+#    name = "Gitbook handbook"
+#    url = "guide-gitbook"
+#    weight = 1
+
 [[menu.main]]
     name = "About"
     url = "about"
-    weight = 4
+    weight = 3
