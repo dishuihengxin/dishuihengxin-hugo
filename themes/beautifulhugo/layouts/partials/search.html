@@ -19,7 +19,7 @@
 <!-- Initialize autocomplete menu -->
 <script>
 var client = algoliasearch("BH1BND3H5X", "{{ .Site.Params.algolia }}");
-var index = client.initIndex('kalid's blog');
+var index = client.initIndex('kalid-blog');
 //initialize autocomplete on search input (ID selector must match)
 autocomplete('#aa-search-input',
 { hint: false}, {
