@@ -19,11 +19,11 @@ share_img = "/img/top_logo.jpg"
 dataFormt = "03,08,2018"
 commit = false
 rss = true
-comments = true
+#comments = true
 sharebutton = true
 baiduKey = "a60715809868679547f5cce7b6866e38"
-algolia = "7422a2e7ec6e21a36ecb10edd5309d29"
-description = "kalid 的博客|kalid.io"
+algolia = "ae7801f6762078eda1af301ce96b6113"
+description = "韦世滴,韦世滴的博客|kalid.io"
 errorpage = "/img/404.jpg"
 
 # Index big images 
@@ -87,16 +87,16 @@ desc = "Winter plum - December 08, 2017"
     url = "tags"
     weight = 4
 
-#[[menu.main]]
-#    identifier = "gitbooks"
-#    name = "gitbooks"
-#    weight = 2
+[[menu.main]]
+    identifier = "handbooks"
+    name = "Handbooks"
+    weight = 2
 
-#[[menu.main]]
-#    parent = "gitbooks"
-#    name = "Gitbook handbook"
-#    url = "guide-gitbook"
-#    weight = 1
+[[menu.main]]
+    parent = "handbooks"
+    name = "Gitbook Handbook"
+    url = "gitbook-tutorial"
+    weight = 1
 
 [[menu.main]]
     name = "About"
