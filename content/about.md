@@ -22,4 +22,4 @@ bigimg: [{src: "/img/about.png", desc: "Keep moving forward - Greet the dawn"}]
 
 ### BIO
 
-Kalid is an operation and maintenance engineer,Currently working at [Cisystem](https://www.cisystemsolutions.com "Cisystem Solutions Ltd") in ShenZhen.
+I'm an operation and maintenance engineer,Currently working at [Cisystem](https://www.cisystemsolutions.com "Cisystem Solutions Ltd") in ShenZhen.
