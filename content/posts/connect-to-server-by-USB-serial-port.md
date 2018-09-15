@@ -1,5 +1,8 @@
 ---
-title: "Connect to Server by USB Serial Port"
+title: "Windows 10 使用 USB Serial Port连接树莓派系统"
+tags: ["树莓派","serial"]
+categories: "operation"
+description: "USB serial port是一个很好的方式，在紧急情况下是可以很好的利用这个方法进行系统扑救的。"
 date: 2018-09-14T11:48:03+08:00
 draft: false
 nocomment: true

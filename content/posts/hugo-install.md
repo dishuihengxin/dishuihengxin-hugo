@@ -2,7 +2,7 @@
 title: "Hugo Install Documentation"
 date: 2018-08-31T15:35:54+08:00
 subtitle: "Hugo Install"
-description: "Hugo,blog"
+description: "Windows 10 安装hugo的文档"
 nocomment: true
 postmeta: false
 notoc: true
