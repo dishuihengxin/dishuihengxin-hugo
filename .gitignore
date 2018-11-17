@@ -4,4 +4,4 @@ deploy.sh
 hugo_algolia.py
 config.yaml
 algolia.yaml
-wordcount.sh
+

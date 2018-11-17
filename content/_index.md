@@ -1,0 +1,1 @@
+Hi, I am [kalid(韦世滴)](/about/ "ABOUT ME"), a senior operation and maintenance engineer, focusing on the direction of Linux operation and maintenance.

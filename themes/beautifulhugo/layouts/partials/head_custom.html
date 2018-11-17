@@ -3,7 +3,7 @@ If you want to include any custom html just before </head>, put it in /layouts/h
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/head_custom.html doesn't exist.
 -->
 <!-- baidu analysis -->
-<meta name="baidu-site-verification" content="0GQHBEnZaB" />
+<meta name="baidu-site-verification" content="g8IYR9SNLF" />
 <!-- Baidu analytics -->
 {{ with .Site.Params.baiduKey }}
 <script>
@@ -18,6 +18,12 @@ var _hmt = _hmt || [];
 {{ end }}
 <!-- prism highlight -->
 <link rel="stylesheet" href="{{ "css/prism.css" | absURL }}" />
-<!--
-<link rel="stylesheet" href="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/prism.css" | absURL }}" />
--->
+
+<!-- Google AdSense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/.js"></script>
+<script>
+     ( = window. || []).push({
+          google_ad_client: "ca-pub-8540593840771761",
+          enable_page_level_ads: true
+     });
+</script>

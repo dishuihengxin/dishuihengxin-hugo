@@ -1,51 +1,54 @@
 baseURL = "https://kalid.io/"
-title = "Kalid's blog"
+title = "Kalid"
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
 languageCode = "zh"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
-pygmentsUseClasses = false
+pygmentsUseClasses = true
 pygmentCodeFences = true
 googleAnalytics = "UA-125790824-1"
 
-# Index   set
 [Params]
 hello = "Hello,I'm Kalid"
 subtitle = "Stay Hungry,Stay Foolish!"
-logo = "/img/top_logo.jpg"
-favicon ="/img/top_logo.jpg"
-share_img = "/img/top_logo.jpg"
+logo = "https://res.cloudinary.com/kalid/image/upload/blog/img/avatar-icon.png"
+favicon ="https://res.cloudinary.com/kalid/image/upload/blog/img/favicon.ico"
+share_img = "https://res.cloudinary.com/kalid/image/upload/blog/img/avatar-icon.png"
 dataFormt = "03,08,2018"
 commit = false
+ad = true
+adsense = true
+reward = true
+baguettebox = true
 rss = true
-#comments = true
-sharebutton = true
+comments = false
+#sharebutton = true
 baiduKey = "a60715809868679547f5cce7b6866e38"
 algolia = "ae7801f6762078eda1af301ce96b6113"
 description = "韦世滴的博客|kalid.io"
-errorpage = "/img/404.jpg"
+errorpage = "https://res.cloudinary.com/kalid/image/upload/blog/img/404.jpg"
 
-# Index big images 
+ # bigimg
 [[Params.bigimg]]
-src = "/img/banner1.jpg"
+src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner1.jpg"
 desc = "Spring vitality - February 14, 2018"
 
 [[Params.bigimg]]
-src = "/img/banner2.jpg"
+src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner2.jpg"
 desc = "Summer lotus - May 27, 2018"
 
 [[Params.bigimg]]
-src = "/img/banner3.jpg"
+src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner3.jpg"
 desc = "Autumn leaves - August 25, 2018"
 
 [[Params.bigimg]]
-src = "/img/banner4.jpg"
+src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner4.jpg"
 desc = "Winter plum - December 08, 2017"
 
-# auther info
+# Auther info
 [Author]
-  name = "kalid"
+  name = "Kalid"
   website = "https://kalid.io/"
   email = "dishuihengxin@gmail.com"
   #facebook = "kalid" 
@@ -59,9 +62,15 @@ desc = "Winter plum - December 08, 2017"
 
 ## main nenu
 [[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
     identifier = "categories"
     name = "categories"
-    weight = 1
+    weight = 2
 	
 [[menu.main]]
     parent = "categories"
@@ -90,7 +99,7 @@ desc = "Winter plum - December 08, 2017"
 [[menu.main]]
     identifier = "handbooks"
     name = "Handbooks"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     parent = "handbooks"
@@ -101,4 +110,4 @@ desc = "Winter plum - December 08, 2017"
 [[menu.main]]
     name = "About"
     url = "about"
-    weight = 3
+    weight = 4

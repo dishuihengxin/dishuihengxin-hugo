@@ -2,8 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-       <ul class="list-inline text-center footer-links">
-        <!--<img src="https://ws1.sinaimg.cn/large/006tKfTcgy1ftndnxw6b2j30a004gdgb.jpg">-->
+        <ul class="list-inline text-center footer-links">
           {{ range .Site.Data.beautifulhugo.social.social_icons }}
             {{- if isset $.Site.Author .id }}
               <li>
@@ -28,7 +27,7 @@
           {{ end }}
         </ul>
         <p class="credits copyright text-muted">
-        &copy;2018
+        &copy;2017-2018
           {{ if .Site.Author.name }}
             {{ if .Site.Author.website }}
               <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
@@ -36,20 +35,14 @@
               {{ .Site.Author.name }}
             {{ end }}
           {{ end }}
-          <!--
           &nbsp;&bull;&nbsp;
           {{ .Site.LastChange.Format "January 2,2006" }}
           updated
-          -->
           {{ if .Site.Title }}
             &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+            <a href="{{ "/sitemap.xml" | absLangURL }}">SiteMap<a>
           {{ end }}
         </p>
-       <!-- <p class="credits theme-by text-muted">
-        <a href="http://www.servicemesher.com">servicemesher.com</a>&nbsp;&bull;&nbsp;<a href="https://dataikudss.com">dataikudss.com</a>&nbsp;&bull;&nbsp;<a href="https://cloudnativego.com">cloudnativego.com</a>
-        </p>-->
-
         <!-- Please don't remove this, keep my open source work credited :) -->
         <p class="credits theme-by text-muted">
           {{ i18n "poweredBy" . | safeHTML }}
@@ -59,37 +52,32 @@
     </div>
   </div>
 </footer>
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
-<script src="{{ "js/prism.js" | absURL }}"></script>
-<script src="{{ "js/main.js" | absURL }}"></script>
--->
-<script src="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/bootstrap.min.js" | absURL }}"></script>
-<script src="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe-ui-default.min.js" | absURL }}"></script>
-<script src="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe.min.js" | absURL }}"></script>
-<script src="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/auto-render.min.js" | absURL }}"></script>
-<script src="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/main.js" | absURL }}"></script>
-<script src="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/prism.js" | absURL }}"></script>
-<script src="{{ "https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/katex.min.js" | absURL }}"></script>
+<script src="{{ "https://res.cloudinary.com/kalid/raw/upload/blog/bootstrap.min.js" | absURL }}"></script>
+<script src="{{ "https://res.cloudinary.com/kalid/raw/upload/blog/photoswipe-ui-default.min.js" | absURL }}"></script>
+<script src="{{ "https://res.cloudinary.com/kalid/raw/upload/blog/photoswipe.min.js" | absURL }}"></script>
+<script src="{{ "https://res.cloudinary.com/kalid/raw/upload/blog/auto-render.min.js" | absURL }}"></script>
+<script src="{{ "https://res.cloudinary.com/kalid/raw/upload/blog/main.js" | absURL }}"></script>
+<script src="{{ "https://res.cloudinary.com/kalid/raw/upload/blog/prism.js" | absURL }}"></script>
+<script src="{{ "https://res.cloudinary.com/kalid/raw/upload/blog/katex.min.js" | absURL }}"></script>
+{{ if .Site.Params.reward }}
+<script src="{{ "js/reward.js" | absURL }}"></script>
+{{ end }}
+{{ if isset .Params "lightgallery" }}
+<!-- lightgallery image plugin -->
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/picturefill.min.js"></script>
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/lightgallery.js"></script>
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/lg-pager.js"></script>
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/lg-autoplay.js"></script>
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/lg-fullscreen.js"></script>
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/lg-zoom.js"></script>
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/lg-hash.js"></script>
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/lg-share.js"></script>
+<script>lightGallery(document.getElementById('lightgallery'));</script>
+{{ end }}
+{{ if .Site.Params.baguettebox }}
+<script src="https://res.cloudinary.com/kalid/raw/upload/blog/baguetteBox.js"></script>
+<script> baguetteBox.run('.gallery');</script>
+{{ end }}
 <script> renderMathInElement(document.body); </script>
 {{ if .Site.Params.gcse }}
 <script>

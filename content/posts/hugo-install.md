@@ -21,25 +21,23 @@ Hugo自带watch的调试模式，会自动检测文件的更新而自动刷新�
 
 使用hugo构建的网站，可以托管在任何的地方，可以放在自搭的服务器上，也可以放在Github pages，S3，Azure，CloudFront等等，不需要依赖于任何的数据库和其他编程语言。通常我们会选择托管在Github Pages上，可以自定义一个个性的域名，这就非常nice了！
 
-安装hugo很简单，可以从hugo官方[Github](https://github.com/gohugoio/hugo/releases "")下载对应系统的最新的二进制文件(hugo或hugo.exe)，目前最新的版本是0.48，然后添加到电脑环境变量即可。![](/img/hugo-version.png)
+安装hugo很简单，可以从hugo官方[Github](https://github.com/gohugoio/hugo/releases "")下载对应系统的最新的二进制文件(hugo或hugo.exe)，目前最新的版本是0.48，然后添加到电脑环境变量即可。![](https://res.cloudinary.com/kalid/image/upload/blog/img/hugo-version.png)
 我们通过命令行来先学习一下hugo的基本指令：
+```bash
+	
+D:\Hugo\bin>hugo help
+	
+hugo is the main command, used to build your Hugo site.
 
->	
->	D:\Hugo\bin>hugo help
->	
-> hugo is the main command, used to build your Hugo site.
->
-> Hugo is a Fast and Flexible Static Site Generator built with love by spf13 and friends in Go.
-> 
-> Complete documentation is available at http://gohugo.io/.
->
->	Usage:
->	
+Hugo is a Fast and Flexible Static Site Generator built with love by spf13 and friends in Go.
+
+Complete documentation is available at http://gohugo.io/.
+
+Usage:	
   	hugo [flags]
   	hugo [command]
->
-> Available Commands:
-> 
+
+Available Commands:
 	benchmark   Benchmark Hugo by building a site a number of times.
   	config      Print the site configuration
  	convert     Convert your content to different formats
@@ -51,9 +49,7 @@ Hugo自带watch的调试模式，会自动检测文件的更新而自动刷新�
   	new         Create new content for your site
   	server      A high performance webserver
   	version     Print the version number of Hugo
->
-> Flags:
-> 
+Flags:
   	-b, --baseURL string      hostname (and path) to the root, e.g. http://spf13.com/
   	-D, --buildDrafts         include content marked as draft
   	-E, --buildExpired        include expired content
@@ -92,11 +88,9 @@ Hugo自带watch的调试模式，会自动检测文件的更新而自动刷新�
     -v, --verbose             verbose output
     --verboseLog              verbose logging
     -w, --watch               watch filesystem for changes and recreate as needed
->
-> Additional help topics:
-> 
+Additional help topics:
 	hugo check                Contains some verification checks
->
-> Use `hugo [command] --help` for more information about a command.
-
+Use `hugo [command] --help` for more information about a command.
+```
 好了，hugo已经安装好了，下一篇将介绍一下基于github pages的快速创建一个个人博客。
+
