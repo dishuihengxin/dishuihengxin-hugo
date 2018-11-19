@@ -1,9 +1,10 @@
 ---
 title: "遵循这些简单的规则，你将成为Git和GitHub大师"
-subtitle: git使用技巧
+subtitle: "git使用技巧"
 date: 2018-10-11T14:23:44+08:00
 categories: "operation"
 description: "遵循这些简单的规则，您将成为Git和GitHub大师"
+keywords: ["git,github"]
 tags: ["git"]
 draft: false
 nocomment: true

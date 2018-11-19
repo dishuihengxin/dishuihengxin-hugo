@@ -27,6 +27,7 @@ comments = false
 baiduKey = "a60715809868679547f5cce7b6866e38"
 algolia = "ae7801f6762078eda1af301ce96b6113"
 description = "韦世滴的博客|kalid.io"
+keywords = ["kalid,韦世滴,kubernetes,docker,linux学习"]
 errorpage = "https://res.cloudinary.com/kalid/image/upload/blog/img/404.jpg"
 
  # bigimg
