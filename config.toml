@@ -98,6 +98,12 @@ desc = "Winter plum - December 08, 2017"
     weight = 4
 
 [[menu.main]]
+    parent = "categories"
+    name = "Archives"
+    url = "archives"
+    weight = 5
+
+[[menu.main]]
     identifier = "handbooks"
     name = "Handbooks"
     weight = 3
@@ -112,3 +118,5 @@ desc = "Winter plum - December 08, 2017"
     name = "About"
     url = "about"
     weight = 4
+
+
