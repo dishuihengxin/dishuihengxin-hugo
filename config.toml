@@ -45,7 +45,7 @@ desc = "Autumn leaves - August 25, 2018"
 
 [[Params.bigimg]]
 src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner4.jpg"
-desc = "Winter plum - December 08, 2017"
+desc = "Winter plum - December 08, 2018"
 
 # Auther info
 [Author]
@@ -54,7 +54,7 @@ desc = "Winter plum - December 08, 2017"
   email = "dishuihengxin@gmail.com"
   #facebook = "kalid" 
   github = "dishuihengxin"
-  #twitter = "kalid"
+  twitter = "kalid_io"
   #linkedin = "kalid"
   #500px = "kalid"
   #medium = "kalid"

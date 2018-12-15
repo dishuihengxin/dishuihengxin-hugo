@@ -10,7 +10,8 @@ draft: false
 nocomment: true
 postmeta: false
 notoc: true
-seealso: false
+seealso: true
+bigimg: [{src: "https://res.cloudinary.com/kalid/image/upload/blog/img/banner3.jpg"}]
 ---
 
 本文中我不介绍如何创建GitHub仓库或如何使用Git终端进行代码的提交。相反，我将解释为什么每天使用Git和GitHub是如此重要，特别是对于那些正在学习编程的同学来说Github一点都不会陌生的，Github上的开源代码是非常的丰富，我也从GitHub上学到很多。今天我将分享三个简单原则，以便让你成为使用Git和GitHub的大师。

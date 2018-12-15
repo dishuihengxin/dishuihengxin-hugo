@@ -1,6 +1,6 @@
 ---
 title: "Hugo Install Documentation"
-date: 2018-08-31T15:35:54+08:00
+date: 2018-03-26T15:35:54+08:00
 subtitle: "Hugo Install"
 description: "Windows 10 安装hugo的文档"
 nocomment: true
@@ -9,8 +9,8 @@ notoc: true
 seealso: false
 tags: ["hugo","blog","website"]
 categories: "operation"
-bigimg: [{src: "/img/banner1.jpg", desc: "Spring vitality - February 14, 2018"}]
-draft: false
+bigimg: [{src: "https://res.cloudinary.com/kalid/image/upload/blog/img/banner3.jpg"}]
+draft: true
 ---
 
 Hugo是一个用Go语言编写的快速而现代的静态网站生成器，简单易用，高效易扩展，轻量易部署，旨在使网站创建再次变得有趣。Hugo仅需要一个二进制文件hugo(或hugo.exe)即可轻松用于本地调试和生成静态页面，Hugo生成静态页面的效率是非常高的。

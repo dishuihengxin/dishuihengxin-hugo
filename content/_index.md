@@ -1,2 +1,2 @@
-Hi, I am [kalid(韦世滴)](/about/ "ABOUT ME"), a senior operation and maintenance engineer, focusing on the direction of Linux operation and maintenance.
+Hi, I am [kalid(韦世滴)](/about/ "ABOUT ME"), a senior operation and maintenance engineer, focusing on the direction of Linux operation and maintenance.这里记录自己平时学习的过程和总结，如果您发现文章中有错误不当之处，烦请您批评指正 。
 <div align=center><img src="https://res.cloudinary.com/kalid/image/upload/blog/img/goto.gif"/></div>
