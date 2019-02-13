@@ -4,8 +4,8 @@ subtitle: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 categories: "operation"
-description: "韦世滴的博客"
-keywords: ["kalid,韦世滴的博客"]
+description: "kalid.io"
+keywords: ["kalid,kalid.io"]
 tags: ["kubernetes"]
 nocomment: true
 postmeta: true
