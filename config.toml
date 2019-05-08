@@ -72,18 +72,18 @@ desc = "Winter plum - December 08, 2018"
     identifier = "categories"
     name = "categories"
     weight = 2
-	
+
+[[menu.main]]
+    parent = "categories"
+    name = "kubernetes"
+    url = "categories/kubernetes"
+    weight = 1	
+
 [[menu.main]]
     parent = "categories"
     name = "Operation"
     url = "categories/operation"
-    weight = 1
-
-[[menu.main]]
-    parent = "categories"
-    name = "Devops"
-    url = "categories/devops"
-    weight = 2	
+    weight = 2
 
 [[menu.main]]
     parent = "categories"
