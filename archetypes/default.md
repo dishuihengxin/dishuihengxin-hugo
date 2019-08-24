@@ -5,7 +5,7 @@ date: {{ .Date }}
 draft: false
 categories: "operation"
 description: "kalid.io"
-keywords: ["kalid,kalid.io"]
+keywords: ["kalid,kalid.io,kubernetes学习"]
 tags: ["kubernetes"]
 nocomment: true
 postmeta: true
