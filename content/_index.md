@@ -1,0 +1,2 @@
+Hi, I am [kalid](/about/ "ABOUT ME"), a senior operation and maintenance engineer, focusing on the direction of Linux operation and maintenance.
+<div align=center><img src="https://res.cloudinary.com/kalid/image/upload/blog/img/goto.gif"/></div>
