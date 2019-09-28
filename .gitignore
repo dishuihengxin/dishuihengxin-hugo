@@ -5,6 +5,6 @@ hugo_algolia.py
 config.yaml
 algolia.yaml
 # content
-public
+# public
 
 
