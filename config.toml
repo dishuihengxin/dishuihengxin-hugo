@@ -12,9 +12,9 @@ googleAnalytics = "UA-125790824-1"
 [Params]
 hello = "Hello,I'm Kalid"
 subtitle = "Stay Hungry,Stay Foolish!"
-logo = "https://res.cloudinary.com/kalid/image/upload/blog/img/avatar-icon.png"
-favicon ="https://res.cloudinary.com/kalid/image/upload/blog/img/favicon.ico"
-share_img = "https://res.cloudinary.com/kalid/image/upload/blog/img/avatar-icon.png"
+logo = "https://res.cloudinary.com/kalid/image/upload/v1569663875/blog/img/avatar-icon.png"
+favicon ="https://res.cloudinary.com/kalid/image/upload/v1569664127/blog/img/favicon.ico"
+share_img = "https://res.cloudinary.com/kalid/image/upload/v1569663875/blog/img/avatar-icon.png"
 dataFormt = "03,08,2018"
 commit = false
 ad = true
@@ -22,7 +22,7 @@ adsense = true
 reward = true
 baguettebox = true
 rss = true
-comments = false
+comments = true
 #sharebutton = true
 baiduKey = "a60715809868679547f5cce7b6866e38"
 algolia = "ae7801f6762078eda1af301ce96b6113"
@@ -73,23 +73,23 @@ desc = "Winter plum - December 08, 2018"
     name = "categories"
     weight = 2
 
-[[menu.main]]
-    parent = "categories"
-    name = "kubernetes"
-    url = "categories/kubernetes"
-    weight = 1	
+# [[menu.main]]
+#     parent = "categories"
+#     name = "kubernetes"
+#     url = "categories/kubernetes"
+#     weight = 1	
 
 [[menu.main]]
     parent = "categories"
     name = "Operation"
     url = "categories/operation"
-    weight = 2
+    weight = 1
 
-[[menu.main]]
-    parent = "categories"
-    name = "Docker"
-    url = "categories/docker"
-    weight = 3
+# [[menu.main]]
+#     parent = "categories"
+#     name = "Docker"
+#     url = "categories/docker"
+#     weight = 3
 	
 [[menu.main]]
     parent = "categories"
