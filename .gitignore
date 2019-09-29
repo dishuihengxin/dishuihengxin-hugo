@@ -1,9 +1,9 @@
 node_modules
 package-lock.json
-deploy.sh
-hugo_algolia.py
-config.yaml
-algolia.yaml
+# deploy.sh
+# hugo_algolia.py
+# config.yaml
+# algolia.yaml
 # content
 # public
 

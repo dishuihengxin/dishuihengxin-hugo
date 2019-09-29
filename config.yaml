@@ -1,0 +1,13 @@
+---
+baseurl: "https://kalid.io/"
+DefaultContentLanguage: "zh"
+hasCJKLanguage: true
+languageCode: "zh-cn"
+title: "kalid's blog"
+theme: "beautifulhugo"
+metaDataFormat: "yaml"
+algolia:
+  index: "kalid's blog"
+  key: "c20446b8319f9d8dd7eadfd09debab12"
+  appID: "BH1BND3H5X"
+---
