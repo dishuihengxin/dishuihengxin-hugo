@@ -32,6 +32,10 @@ errorpage = "https://res.cloudinary.com/kalid/image/upload/blog/img/404.jpg"
 
  # bigimg
 [[Params.bigimg]]
+src = "https://res.cloudinary.com/kalid/image/upload/v1569743873/blog/img/banner05.jpg"
+desc = "Lijiang Snow Mountain - October 02, 2018"
+
+[[Params.bigimg]]
 src = "https://res.cloudinary.com/kalid/image/upload/v1569727010/blog/img/20190929111541.jpg"
 desc = "Lijiang Snow Mountain - October 02, 2018"
 
