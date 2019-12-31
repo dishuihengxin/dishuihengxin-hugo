@@ -32,32 +32,41 @@ errorpage = "https://res.cloudinary.com/kalid/image/upload/blog/img/404.jpg"
 
  # bigimg
 [[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/v1569727010/blog/img/20190929111541.jpg"
-desc = "Lijiang Snow Mountain - October 02, 2018"
+src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_280,w_800/v1577808387/blog/img/happy_new_year.jpg"
+desc = "Happy New Year! - January 01, 2020"
 
 [[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/v1569727001/blog/img/20190929111455.jpg"
-desc = "Lijiang Snow Mountain - October 02, 2018"
+src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_280,w_800/v1577806936/blog/img/happy_new_year_1.jpg"
+desc = "Happy New Year!  - January 01, 2020"
 
-[[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/v1569727001/blog/img/20190929111516.jpg"
-desc = "Lijiang Snow Mountain - October 02, 2018"
 
-[[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner1.jpg"
-desc = "Spring vitality - February 14, 2018"
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/v1569727010/blog/img/20190929111541.jpg"
+# desc = "Lijiang Snow Mountain - October 02, 2018"
 
-[[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner2.jpg"
-desc = "Summer lotus - May 27, 2018"
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/v1569727001/blog/img/20190929111455.jpg"
+# desc = "Lijiang Snow Mountain - October 02, 2018"
 
-[[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner3.jpg"
-desc = "Autumn leaves - August 25, 2018"
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/v1569727001/blog/img/20190929111516.jpg"
+# desc = "Lijiang Snow Mountain - October 02, 2018"
 
-[[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner4.jpg"
-desc = "Winter plum - December 08, 2018"
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner1.jpg"
+# desc = "Spring vitality - February 14, 2018"
+
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner2.jpg"
+# desc = "Summer lotus - May 27, 2018"
+
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner3.jpg"
+# desc = "Autumn leaves - August 25, 2018"
+
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/blog/img/banner4.jpg"
+# desc = "Winter plum - December 08, 2018"
 
 # Auther info
 [Author]

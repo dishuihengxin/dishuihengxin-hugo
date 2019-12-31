@@ -23,13 +23,12 @@ bigimg: [{src: "https://res.cloudinary.com/kalid/image/upload/blog/img/about.png
 - Career
   - [TenBoon](http://www.tenboon.com/)
   - [Cisystem](https://www.cisystemsolutions.com)
-  - [Zaiso](http://www.zaiso.net)
-  - [Code Zero](http://www.code-zero.net) 
+  - [Zaiso](http://www.zaiso.net) & [Code Zero](http://www.code-zero.net) 
 
 
 ### BIO
 
-I'm an operation and maintenance engineer,Currently working at [Code Zero](http://www.code-zero.net "Code Zero Limited") in ShenZhen.And my focus is on cloud services, microservices architecture, security operations, and the familiar use of Shell, Python, Go, etc. I am currently preparing for AWS Certification and Certificated Kubernetes Administrator.
+I'm an operation and maintenance engineer,Currently working at [Code Zero](http://www.code-zero.net "Code Zero Limited") & [Zaiso](http://www.zaiso.net) in ShenZhen.And my focus is on cloud services, microservices architecture, security operations, and the familiar use of Shell, Python, Go, etc. I am currently preparing for AWS Certification and Certificated Kubernetes Administrator.
 
 
 ### Involved Projects
