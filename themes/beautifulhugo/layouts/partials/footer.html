@@ -27,7 +27,7 @@
           {{ end }}
         </ul>
         <p class="credits copyright text-muted">
-        &copy;2018-2019
+        &copy;2018-2020
           {{ if .Site.Author.name }}
             {{ if .Site.Author.website }}
               <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
@@ -42,6 +42,10 @@
             &nbsp;&bull;&nbsp;
             <a href="{{ "/sitemap.xml" | absLangURL }}">SiteMap<a>
           {{ end }}
+        </p>
+        <!-- Links -->
+        <p class="credits theme-by text-muted">
+        <a href="https://devopschina.org/">中国DevOps社区</a> 
         </p>
         <!-- Please don't remove this, keep my open source work credited :) -->
         <p class="credits theme-by text-muted">
