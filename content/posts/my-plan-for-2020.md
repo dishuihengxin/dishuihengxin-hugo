@@ -6,7 +6,7 @@ draft: false
 categories: ""
 description: "kalid.io"
 keywords: ["kalid,kalid.io,kubernetes学习"]
-tags: ["kubernetes"]
+tags: ["2020", "flag"]
 nocomment: true
 postmeta: true
 notoc: true
