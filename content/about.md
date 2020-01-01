@@ -13,8 +13,8 @@ bigimg: [{src: "https://res.cloudinary.com/kalid/image/upload/blog/img/about.png
 ---
 
 
-![个人微信二维码](https://res.cloudinary.com/kalid/image/upload/blog/img/weixin.jpg "我的微信二维码")
-<center>My QR code</center>
+<!-- ![个人微信二维码](https://res.cloudinary.com/kalid/image/upload/c_scale,w_200/v1542471475/blog/img/weixin.jpg "我的微信二维码")
+<center>My QR code</center> -->
 
 ### Info
 
@@ -36,6 +36,12 @@ I'm an operation and maintenance engineer,Currently working at [Code Zero](http:
 - [Getting start with knative](https://github.com/servicemesher/getting-started-with-knative) ,Participate in translation.
 - [中国 DevOps 社区](https://devopschina.org)，Mainly responsible for the maintenance and content operation of the Chinese devops community website.
 
+### [Flag for 2020](https://kalid.io/posts/my-plan-for-2020/)
+
+- Read 50 books.
+- Can communicate and write in English.
+- Continuous learning and writing.
+- Learn more about Go and Python.
 
 ### Contact
 
