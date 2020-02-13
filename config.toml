@@ -32,12 +32,20 @@ errorpage = "https://res.cloudinary.com/kalid/image/upload/blog/img/404.jpg"
 
  # bigimg
 [[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_280,w_800/v1577808387/blog/img/happy_new_year.jpg"
-desc = "Happy New Year! - January 01, 2020"
+src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_195,w_800/v1581567637/blog/img/wuhan-jiayou.jpg"
+desc = "致敬医者! - February 13, 2020"
 
 [[Params.bigimg]]
-src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_280,w_800/v1577806936/blog/img/happy_new_year_1.jpg"
-desc = "Happy New Year!  - January 01, 2020"
+src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_280,w_800/v1581567155/blog/img/wuhanjiayou.jpg"
+desc = "武汉加油！中国加油! - February 13, 2020"
+
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_280,w_800/v1577808387/blog/img/happy_new_year.jpg"
+# desc = "Happy New Year! - January 01, 2020"
+
+# [[Params.bigimg]]
+# src = "https://res.cloudinary.com/kalid/image/upload/c_scale,h_280,w_800/v1577806936/blog/img/happy_new_year_1.jpg"
+# desc = "Happy New Year!  - January 01, 2020"
 
 
 # [[Params.bigimg]]
