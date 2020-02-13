@@ -11,7 +11,8 @@ googleAnalytics = "UA-125790824-1"
 
 [Params]
 hello = "Hello,I'm Kalid"
-subtitle = "Stay Hungry,Stay Foolish!"
+subtitle = "武汉加油！中国加油!"
+# subtitle = "Stay Hungry,Stay Foolish!"
 logo = "https://res.cloudinary.com/kalid/image/upload/v1569663875/blog/img/avatar-icon.png"
 favicon ="https://res.cloudinary.com/kalid/image/upload/v1569664127/blog/img/favicon.ico"
 share_img = "https://res.cloudinary.com/kalid/image/upload/v1569663875/blog/img/avatar-icon.png"
